@@ -27,7 +27,7 @@ deploy:
       master: cicd-simple-app
       develop: cicd-simple-app-dev
     on:
-      repo: Pabloin/CI-CD-app-Angular-Travis-Heroku
+      repo: scabezas/CI-CD-app-Angular-Travis-Heroku
 
 
 notifications:
