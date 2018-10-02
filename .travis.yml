@@ -22,7 +22,7 @@ script:
 deploy:
   - provider: heroku
     api_key:
-      secure: $HEROKU_KEY_USER_PABLOIN
+      secure: $key_heroku
     app:
       master: cicd-simple-app
       develop: cicd-simple-app-dev
